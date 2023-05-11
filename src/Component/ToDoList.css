@@ -1,0 +1,74 @@
+.container{
+    max-width: 1140px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 30px 16px;
+}
+.Todos{
+    background-color: rgb(147, 212, 212);
+    height: 100vh;
+}
+.todo{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    background-color: aqua;
+    padding: 20px 0;
+    box-shadow: 1px 1px 10px 3px  rgb(84, 200, 200);
+    border-radius: 5px;
+}
+li{
+    list-style: none;
+    text-align: right;
+    width: 90%;
+    border: 1px solid rgb(32, 39, 28);
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    border: none;
+
+}
+.text{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.btn, .Addbtn{
+padding: 8px 10px;
+border-radius: 5px;
+background-color: chartreuse;
+font-size: 16px;
+font-weight: 700;
+color: azure;
+margin-left: 5px;
+border: none;
+cursor: pointer;
+}
+.Addbtn{
+    padding: 8px 14px;
+}
+.input{
+    padding: 8px 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+@media only screen and (max-width: 600px) {
+    .todo {
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+    .input, .text{
+        padding:2px 0;
+        font-size: 14px;
+    }
+    .Addbtn, .btn{
+padding: 4px 7px;
+font-size: 14px;
+font-weight: 400;
+    }
+  }
